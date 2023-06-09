@@ -38,7 +38,7 @@ public class DebitCardApplicationTest {
     }
 
     @Test
-   public void shouldOpenSite() {
+    void shouldOpenSite() {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Александр Иванов");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+71234567890");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
